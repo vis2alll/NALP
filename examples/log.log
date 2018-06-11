@@ -1,0 +1,242 @@
+2018-05-16 13:17:49,588 DEBUG main terminal size 39x144
+2018-05-16 13:17:49,589 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 13:17:49,589 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 13:17:49,589 DEBUG editor adding Window('BKLIST_WINDOW') to editor
+2018-05-16 13:17:49,589 DEBUG window Window('DEFAULT_WINDOW') is now visible
+2018-05-16 13:17:55,667 WARNING bindings unknown key: Key(u'<M-O>':65615)
+2018-05-16 13:17:55,811 WARNING bindings unknown key: Key(u'<M-O>':65615)
+2018-05-16 13:18:07,615 WARNING bindings unknown key: Key(u'<C-W>':23)
+2018-05-16 13:18:09,138 ERROR evnt-loop Traceback (most recent call last):
+  File "/home/cdh/vishal_iit/UIFramework/console/eventloop.py", line 16, in next
+    ch = window.getch()
+KeyboardInterrupt
+
+2018-05-16 13:18:09,139 WARNING bindings unknown key: Key(u'<C-C>':3)
+2018-05-16 13:18:25,815 ERROR evnt-loop Traceback (most recent call last):
+  File "/home/cdh/vishal_iit/UIFramework/console/eventloop.py", line 16, in next
+    ch = window.getch()
+KeyboardInterrupt
+
+2018-05-16 13:18:25,815 WARNING bindings unknown key: Key(u'<C-C>':3)
+2018-05-16 13:18:28,146 WARNING bindings unknown key: Key(u'<F4>':268)
+2018-05-16 13:18:28,765 WARNING bindings unknown key: Key(u'<F4>':268)
+2018-05-16 13:18:28,989 WARNING bindings unknown key: Key(u'<F4>':268)
+2018-05-16 13:18:50,493 ERROR evnt-loop Traceback (most recent call last):
+  File "/home/cdh/vishal_iit/UIFramework/console/eventloop.py", line 16, in next
+    ch = window.getch()
+KeyboardInterrupt
+
+2018-05-16 13:18:50,493 WARNING bindings unknown key: Key(u'<C-C>':3)
+2018-05-16 13:18:50,884 ERROR evnt-loop Traceback (most recent call last):
+  File "/home/cdh/vishal_iit/UIFramework/console/eventloop.py", line 16, in next
+    ch = window.getch()
+KeyboardInterrupt
+
+2018-05-16 13:18:50,884 WARNING bindings unknown key: Key(u'<C-C>':3)
+2018-05-16 13:18:51,052 ERROR evnt-loop Traceback (most recent call last):
+  File "/home/cdh/vishal_iit/UIFramework/console/eventloop.py", line 16, in next
+    ch = window.getch()
+KeyboardInterrupt
+
+2018-05-16 13:18:51,053 WARNING bindings unknown key: Key(u'<C-C>':3)
+2018-05-16 16:32:10,889 DEBUG main terminal size 39x144
+2018-05-16 16:32:10,889 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 16:32:10,889 DEBUG window Window('DEFAULT_WINDOW') is now visible
+2018-05-16 16:37:03,274 DEBUG main terminal size 39x144
+2018-05-16 16:37:03,274 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 177, in main\n    edit_buffer = ReaderBuffer()\nTypeError: Can\'t instantiate abstract class ReaderBuffer with abstract methods bottom, enter, top\n'
+2018-05-16 16:38:44,841 DEBUG main terminal size 39x144
+2018-05-16 16:38:44,841 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 177, in main\n    edit_buffer = ReaderBuffer()\nTypeError: Can\'t instantiate abstract class ReaderBuffer with abstract methods bottom, enter, top\n'
+2018-05-16 16:41:23,856 DEBUG main terminal size 39x144
+2018-05-16 16:41:23,856 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 177, in main\n    edit_buffer = ReaderBuffer()\nTypeError: Can\'t instantiate abstract class ReaderBuffer with abstract methods bottom, enter, top\n'
+2018-05-16 16:43:01,299 DEBUG main terminal size 39x144
+2018-05-16 16:43:01,299 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 177, in main\n    edit_buffer = ReaderBuffer()\nTypeError: Can\'t instantiate abstract class ReaderBuffer with abstract methods bottom, enter, top\n'
+2018-05-16 16:47:11,003 DEBUG main terminal size 39x144
+2018-05-16 16:47:11,003 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 162, in main\n    book_buffer = ReaderBuffer()\nTypeError: Can\'t instantiate abstract class ReaderBuffer with abstract methods bottom, enter, top\n'
+2018-05-16 16:48:45,469 DEBUG main terminal size 39x144
+2018-05-16 16:48:45,470 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 162, in main\n    book_buffer = ReaderBuffer()\nTypeError: Can\'t instantiate abstract class ReaderBuffer with abstract methods bottom, enter, top\n'
+2018-05-16 16:48:49,695 DEBUG main terminal size 39x144
+2018-05-16 16:48:49,696 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 162, in main\n    book_buffer = ReaderBuffer()\nTypeError: Can\'t instantiate abstract class ReaderBuffer with abstract methods bottom, enter, top\n'
+2018-05-16 16:48:59,125 DEBUG main terminal size 39x144
+2018-05-16 16:48:59,125 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 16:48:59,125 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 16:48:59,125 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 16:48:59,139 ERROR window some error occurred while displaying 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 294, in refresh\n    textlines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/console/core/buffer_base.py", line 54, in text\n    raise NotImplementedError\nNotImplementedError\n'
+2018-05-16 16:49:00,577 ERROR editor 'unable to navigate' 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/bindings.py", line 315, in _\n    row, col = event.current_window.row_column_from_cursor()\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 232, in row_column_from_cursor\n    lines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/console/core/buffer_base.py", line 54, in text\n    raise NotImplementedError\nNotImplementedError\n'
+2018-05-16 16:49:00,577 DEBUG editor adding Window('MESSAGE_WINDOW') to editor
+2018-05-16 16:49:00,577 DEBUG window Window('MESSAGE_WINDOW') is now visible
+2018-05-16 16:49:00,588 ERROR window some error occurred while displaying 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 294, in refresh\n    textlines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/console/core/buffer_base.py", line 54, in text\n    raise NotImplementedError\nNotImplementedError\n'
+2018-05-16 16:49:03,720 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 16:49:03,950 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 16:49:04,448 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 16:49:04,698 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 16:50:18,257 DEBUG main terminal size 39x144
+2018-05-16 16:50:18,258 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 16:50:18,258 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 16:50:18,258 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 16:50:18,271 ERROR window some error occurred while displaying 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 294, in refresh\n    textlines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/console/core/buffer_base.py", line 54, in text\n    raise NotImplementedError\nNotImplementedError\n'
+2018-05-16 16:50:19,328 ERROR editor 'unable to navigate' 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/bindings.py", line 315, in _\n    row, col = event.current_window.row_column_from_cursor()\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 232, in row_column_from_cursor\n    lines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/console/core/buffer_base.py", line 54, in text\n    raise NotImplementedError\nNotImplementedError\n'
+2018-05-16 16:50:19,328 DEBUG editor adding Window('MESSAGE_WINDOW') to editor
+2018-05-16 16:50:19,328 DEBUG window Window('MESSAGE_WINDOW') is now visible
+2018-05-16 16:50:19,340 ERROR window some error occurred while displaying 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 294, in refresh\n    textlines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/console/core/buffer_base.py", line 54, in text\n    raise NotImplementedError\nNotImplementedError\n'
+2018-05-16 16:54:51,924 DEBUG main terminal size 39x144
+2018-05-16 16:54:51,925 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 16:54:51,925 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 16:54:51,925 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 16:54:58,102 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 16:54:58,972 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 16:54:59,302 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 16:54:59,362 ERROR editor 'unable to navigate' 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/bindings.py", line 302, in _\n    row, col = event.current_window.row_column_from_cursor()\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 232, in row_column_from_cursor\n    lines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/examples/reader_buffer.py", line 23, in text\n    return self._files[self.lvl][self.index]\nIndexError: list index out of range\n'
+2018-05-16 16:54:59,362 DEBUG editor adding Window('MESSAGE_WINDOW') to editor
+2018-05-16 16:54:59,363 DEBUG window Window('MESSAGE_WINDOW') is now visible
+2018-05-16 16:54:59,373 ERROR window some error occurred while displaying 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 294, in refresh\n    textlines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/examples/reader_buffer.py", line 23, in text\n    return self._files[self.lvl][self.index]\nIndexError: list index out of range\n'
+2018-05-16 16:55:00,277 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:00:35,871 DEBUG main terminal size 39x144
+2018-05-16 17:00:35,872 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:00:35,872 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:00:35,872 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:00:39,568 ERROR editor 'unable to navigate' 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/bindings.py", line 315, in _\n    row, col = event.current_window.row_column_from_cursor()\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 232, in row_column_from_cursor\n    lines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/examples/reader_buffer.py", line 23, in text\n    return self._files[self.lvl][self.index]\nIndexError: list index out of range\n'
+2018-05-16 17:00:39,569 DEBUG editor adding Window('MESSAGE_WINDOW') to editor
+2018-05-16 17:00:39,569 DEBUG window Window('MESSAGE_WINDOW') is now visible
+2018-05-16 17:00:39,579 ERROR window some error occurred while displaying 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 294, in refresh\n    textlines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/examples/reader_buffer.py", line 23, in text\n    return self._files[self.lvl][self.index]\nIndexError: list index out of range\n'
+2018-05-16 17:00:51,365 DEBUG main terminal size 39x144
+2018-05-16 17:00:51,366 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:00:51,366 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:00:51,366 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:00:52,250 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:00:53,876 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:00:54,391 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:00:55,124 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:03:18,457 DEBUG main terminal size 39x144
+2018-05-16 17:03:18,458 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:03:18,458 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:03:18,458 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:03:19,431 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:03:19,903 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:03:20,534 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:03:20,765 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:03:22,542 ERROR editor 'unable to navigate' 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/bindings.py", line 315, in _\n    row, col = event.current_window.row_column_from_cursor()\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 232, in row_column_from_cursor\n    lines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/examples/reader_buffer.py", line 23, in text\n    return self._files[self.lvl][self.index]\nIndexError: list index out of range\n'
+2018-05-16 17:03:22,542 DEBUG editor adding Window('MESSAGE_WINDOW') to editor
+2018-05-16 17:03:22,543 DEBUG window Window('MESSAGE_WINDOW') is now visible
+2018-05-16 17:03:22,553 ERROR window some error occurred while displaying 'Traceback (most recent call last):\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 294, in refresh\n    textlines = self.lines\n  File "/home/cdh/vishal_iit/UIFramework/console/ui/window.py", line 178, in lines\n    text = self.buffer.text\n  File "/home/cdh/vishal_iit/UIFramework/examples/reader_buffer.py", line 23, in text\n    return self._files[self.lvl][self.index]\nIndexError: list index out of range\n'
+2018-05-16 17:03:25,095 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:05:58,399 DEBUG main terminal size 39x144
+2018-05-16 17:05:58,399 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:05:58,400 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:05:58,400 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:06:01,260 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:01,679 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:06:01,997 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:02,193 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:06:02,406 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:05,877 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:06,084 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:06,258 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:06:06,434 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:06:06,629 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:06,804 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:06:07,007 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:07,159 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:06:07,343 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:07,526 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:06:07,722 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:06:07,905 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:08:00,332 DEBUG main terminal size 39x144
+2018-05-16 17:08:00,333 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:08:00,333 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:08:00,333 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:08:04,530 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:08:04,720 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:08:04,930 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:08:05,140 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:08:05,322 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:08:05,515 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:08:05,708 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:09:02,247 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:09:04,741 DEBUG main terminal size 39x144
+2018-05-16 17:09:04,742 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:09:04,742 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:09:04,742 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:11:27,373 DEBUG main terminal size 39x144
+2018-05-16 17:11:27,374 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:11:27,374 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:11:27,374 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:11:31,950 DEBUG editor adding Window('MESSAGE_WINDOW') to editor
+2018-05-16 17:11:31,950 DEBUG window Window('MESSAGE_WINDOW') is now visible
+2018-05-16 17:11:37,549 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:11:37,841 WARNING bindings unknown key: Key(u'<Up>':259)
+2018-05-16 17:11:38,311 WARNING bindings unknown key: Key(u'<Down>':258)
+2018-05-16 17:12:09,489 DEBUG main terminal size 39x144
+2018-05-16 17:12:09,490 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:12:09,490 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:12:09,490 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:12:10,526 DEBUG editor adding Window('MESSAGE_WINDOW') to editor
+2018-05-16 17:12:10,526 DEBUG window Window('MESSAGE_WINDOW') is now visible
+2018-05-16 17:12:20,705 DEBUG main terminal size 39x144
+2018-05-16 17:12:20,705 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:12:20,706 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:12:20,706 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:13:50,533 DEBUG main terminal size 39x144
+2018-05-16 17:13:50,534 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:13:50,534 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:13:50,535 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:28:10,064 DEBUG main terminal size 39x144
+2018-05-16 17:28:10,065 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:28:10,065 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:28:10,065 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:32:16,686 DEBUG main terminal size 39x144
+2018-05-16 17:32:16,686 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:32:16,686 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:32:16,687 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:33:17,548 DEBUG main terminal size 39x144
+2018-05-16 17:33:17,549 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:33:17,549 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:33:17,549 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:33:17,550 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 238, in main\n    load_custom_binding()\n  File "sp.py", line 89, in load_custom_binding\n    @handle(Keys.Delete, filter=booklist_window_has_focus)\nNameError: global name \'booklist_window_has_focus\' is not defined\n'
+2018-05-16 17:33:40,266 DEBUG main terminal size 39x144
+2018-05-16 17:33:40,267 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:33:40,267 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:33:40,267 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:38:30,467 DEBUG main terminal size 39x144
+2018-05-16 17:38:30,468 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:38:30,468 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:38:30,468 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:38:30,470 ERROR main application exited with exception: 'Traceback (most recent call last):\n  File "sp.py", line 242, in main\n    load_custom_binding()\n  File "sp.py", line 88, in load_custom_binding\n    _logger = logger(\'load_custom_binding\')\nNameError: global name \'logger\' is not defined\n'
+2018-05-16 17:39:25,640 DEBUG main terminal size 39x144
+2018-05-16 17:39:25,641 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:39:25,641 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:39:25,641 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:40:34,829 DEBUG main terminal size 39x144
+2018-05-16 17:40:34,830 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:40:34,830 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:40:34,830 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:41:58,916 DEBUG main terminal size 39x144
+2018-05-16 17:41:58,917 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:41:58,917 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:41:58,917 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:43:16,232 DEBUG main terminal size 39x144
+2018-05-16 17:43:16,233 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:43:16,233 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:43:16,233 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:44:26,475 DEBUG main terminal size 39x144
+2018-05-16 17:44:26,475 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:44:26,476 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:44:26,476 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:50:03,130 DEBUG main terminal size 39x144
+2018-05-16 17:50:03,131 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:50:03,131 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:50:03,131 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:53:02,019 DEBUG main terminal size 39x144
+2018-05-16 17:53:02,019 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:53:02,020 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:53:02,020 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:55:17,981 DEBUG main terminal size 39x144
+2018-05-16 17:55:17,982 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:55:17,982 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:55:17,982 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:55:19,573 ERROR reader_buffer opening...
+2018-05-16 17:57:03,422 DEBUG main terminal size 39x144
+2018-05-16 17:57:03,423 DEBUG editor adding Window('DEFAULT_WINDOW') to editor
+2018-05-16 17:57:03,423 DEBUG editor adding Window('BOOKLIST_WINDOW') to editor
+2018-05-16 17:57:03,423 DEBUG window Window('BOOKLIST_WINDOW') is now visible
+2018-05-16 17:57:05,249 ERROR reader_buffer : opening selected file...
+2018-05-16 17:57:06,477 ERROR reader_buffer : opening selected file...
