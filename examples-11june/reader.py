@@ -9,8 +9,10 @@ from sugamya_pustakalya import SugamyaPustakalya
 from bookshare import Bookshare
 from console.core.event_type import EventType
 from _enums import BOOKLIST_WINDOW, LOGIN_WINDOW,DEFAULT_WINDOW
-from login import _login
 
+#-------------
+from login import _login
+from local_books import downloaded_files
 
 class process_choice_selection():
 
@@ -98,12 +100,15 @@ class process_choice_selection():
             app.editor.message('local books ')
         elif choice == 'q':
             self.menu_lvl="1"
-            self.sp=None
-            self.login =_login()
-#            try:
-#                self._event.current_window.buffer.reset()
-#            except:
-#                pass
+            try:
+                self.sp=None
+                self.login =_login()
+#                self._event.current_window.buffer._files=[[""]]
+                self._event.current_window.buffer.reset()
+#                self._event.current_window.buffer._files=downloaded_files()
+                
+            except:
+                pass
 #            app.editor.message('\nThanks for using Reader. Bye.')
         else:
             app.editor.message('\nInvalid choice.\n ')
@@ -155,10 +160,13 @@ class process_choice_selection():
             self.get_user_input( app,self.reader_menu_lst)
         elif choice == 'q':
             self.menu_lvl="1"
+            
             try:
                 self.sp=None
                 self.login =_login()
+#                self._event.current_window.buffer._files=[[""]]
                 self._event.current_window.buffer.reset()
+#                self._event.current_window.buffer._files=downloaded_files()
             except:
                 pass
 #            print "hello"

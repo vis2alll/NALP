@@ -238,8 +238,12 @@ def load_custom_binding():
 #        global pcs
 #        if  not pcs.sp==None and (pcs.menu_lvl=="1-1" or "1-2" or "1-5"):
         if  not pcs.sp==None and pcs.menu_lvl in ["1-1", "1-2", "1-3", "1-4", "1-4-b", "1-5"]:
-            
+
+ 
+            from local_books import downloaded_files
+
             try:
+                pcs._event.current_window.buffer._files=downloaded_files()
                 pcs._event.current_window.buffer.reset()
                 choice="1"
                 pcs.choice_selection(event, choice)
@@ -273,10 +277,6 @@ def load_custom_binding():
                 
                 elif pcs.menu_lvl=="1-5":
                     pcs.sp.get_requested_books()
-                    
-
-                    
-                    
 
                 try:
                     repo_length=len(pcs.sp.book_repo)
@@ -288,8 +288,9 @@ def load_custom_binding():
                     pass
                 
             except Exception as e:
-                    event.app.editor.error(' %r ' % e) 
-
+                    event.app.editor.error(' %r  ' % e) 
+ 
+ 
 
     @handle(Keys.ControlD)
     def _(event):

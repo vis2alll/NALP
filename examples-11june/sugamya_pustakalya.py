@@ -6,8 +6,13 @@ from xml.dom import minidom
 #-----------------------------------------------
 
 from console.core.event_type import EventType
-import urllib3
-#urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+try:
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+except:
+    pass
+    
 from console.enums import DEFAULT_WINDOW
 from _enums import BOOKLIST_WINDOW, LOGIN_WINDOW
 
@@ -139,7 +144,7 @@ class SugamyaPustakalya():
                 self.pcs._event.app.editor.error("Error, server replied with"+ str(data.status_code))
 
 
-        except IOError, e:
+        except IOError, e: 
             self.pcs.menu_lvl="1"
             self.pcs._event.app.editor.error('Network is unreachable')
 #                break
@@ -368,27 +373,49 @@ class SugamyaPustakalya():
     def download_book(self,response):
         
         
+        try:
+            path = ''
+            url = self.all_urls[response].split('/')
+            host = url[2].split(':')[0]
+            port = url[2].split(':')[1]
+            filename = url[4]
 
-        path = ''
-        url = self.all_urls[response].split('/')
-        host = url[2].split(':')[0]
-        port = url[2].split(':')[1]
-        filename = url[4]
-        
-        
-        ftp = ftplib.FTP(host) 
 
-        ftp.login("26353", "9m85twwz") 
-        ftp.cwd(path)
-        ftp.retrbinary("RETR " + url[3] + "/" + url[4], open(filename, 'wb').write)
-        ftp.quit()
-#        proxy = urllib.request.ProxyHandler({'http': 'proxy22.iitd.ac.in:3128'})
-#        opener = urllib.request.build_opener(proxy)
-#        urllib.request.install_opener(opener)
-#        with closing(urllib.request.urlopen(all_urls[response])) as r:
-#             with open('file', 'wb') as f:
-#                 shutil.copyfileobj(r, f)        
 
+#            ftp = ftplib.FTP('http':'proxy21.iitd.ac.in:3128')  # 2
+#            ftp.set_debuglevel(1)  # 3
+#            ftp.login("papa", "tango123")  # 4
+
+            
+            
+            ftp = ftplib.FTP(host) 
+    
+            ftp.login("26353", "9m85twwz") 
+            ftp.cwd(path)
+            ftp.retrbinary("RETR " + url[3] + "/" + url[4], open(filename, 'wb').write)
+            
+            ftp.close()
+            ftp.quit()
+    
+    
+    
+#            import shutil
+#            from contextlib import closing
+#            import urllib2
+#            urllib=urllib2
+#            
+#            proxy = urllib.ProxyHandler({'http':'proxy21.iitd.ac.in:3128'})
+#            opener = urllib.build_opener(proxy)
+#            urllib.install_opener(opener)
+#            with closing(urllib.urlopen(self.all_urls[response])) as r:
+#                 with open('file', 'wb') as f:
+#                     shutil.copyfileobj(r, f)  
+                     
+        except KeyError:
+            self.pcs._event.app.editor.error('queued')
+            
+        except Exception as e:
+            self.pcs._event.app.editor.error(''+str(e)[0:45])            
 
 
 
@@ -430,15 +457,6 @@ class SugamyaPustakalya():
             self.pcs._event.app.editor.error('Network is unreachable')
 
  
-#                response = ''
-#                while(response not in all_categories and response != 'b'):
-#                    if(response != ''):
-#                        print("\nInvalid choice, try again")
-#                    print("\nEnter a book category to search")
-#                    print("Enter b to go back")
-#                    response = raw_input("\nResponse: ")
-#                if(response != 'b'):
-#                    self.category_search(response,1)
 
  
 

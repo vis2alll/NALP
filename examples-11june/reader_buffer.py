@@ -15,10 +15,19 @@ class ReaderBuffer(BufferBase):
 
     def __init__(self, name = '', text ='' ):
         BufferBase.__init__(self, name)
+        
         self._text = text
-        self._files = downloaded_files()
+        
+#        _files=downloaded_files()
+#        if _files==[]:
+#            self._files=[["No Books in Download"]]
+#        else:
+#            self._files = _files
+        
+        self._files=downloaded_files()        
         self.lvl=0
-        self.index=0 
+        self.index=0
+ 
 
     @property
     def text(self):
@@ -91,6 +100,10 @@ class ReaderBuffer(BufferBase):
     def reset(self):
         self.index=0
         self.lvl=0
+        try:
+            self.emit(EventType.TEXT_CHANGED)
+        except:
+            pass
         
     def enter(self):
         _logger = logger('reader_buffer')

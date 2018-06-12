@@ -2,7 +2,11 @@ import os, sys, hashlib, base64, ftplib#, urllib.request
 import requests
 from xml.dom import minidom
 from prettytable import PrettyTable
-
+try:
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+except:
+    pass
 ### Class for BOOKSHARE  ###
 
 class Bookshare():
